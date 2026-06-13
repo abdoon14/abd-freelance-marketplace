@@ -4,6 +4,9 @@
   "description": "ABD Freelance Marketplace Backend",
   "main": "dist/server.js",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
