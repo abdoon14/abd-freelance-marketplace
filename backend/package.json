@@ -1,0 +1,43 @@
+{
+  "name": "abd-freelance-backend",
+  "version": "1.0.0",
+  "description": "ABD Freelance Marketplace Backend",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint src --ext ts"
+  },
+  "keywords": ["freelance", "marketplace", "gigs"],
+  "author": "ABD Freelance Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.1.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "stripe": "^14.7.0",
+    "socket.io": "^4.7.2",
+    "nodemailer": "^6.9.7",
+    "express-validator": "^7.0.0",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/bcryptjs": "^2.4.6",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.56.0"
+  }
+}
